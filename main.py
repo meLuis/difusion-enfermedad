@@ -1,8 +1,8 @@
 import pandas as pd
 
-dt = 0.25
-N_steps = 200
-t = [i * dt for i in range(N_steps)]
+dt = 0.01
+N_steps = 1400
+t = [i * dt for i in range(+N_steps)]
 
 S = [45400]
 I = [2100]
